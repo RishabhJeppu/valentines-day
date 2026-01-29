@@ -1,14 +1,9 @@
 {
-  "name": "vite-starter",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://rishabhjeppu.github.io/valentines-day",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^5.4.2"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   }
 }
