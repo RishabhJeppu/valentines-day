@@ -1,5 +1,3 @@
-import './style.css'
-
 // Global variables
 let currentPage = 1;
 
