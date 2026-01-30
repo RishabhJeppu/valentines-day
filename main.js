@@ -120,11 +120,7 @@ function showFinalCelebration() {
   const finalButton = document.querySelector('.final-btn');
 
   const messages = [
-    'Forever starts today! 💕',
-    'To a lifetime of golgappa and love! 🌸',
-    'Best decision ever made! 💖',
-    'You and me, always! ❤️',
-    'Our story begins now! 💫'
+    'Best decision ever made! To a lifetime of golgappa and love! 🌸',
   ];
 
   const randomMessage = messages[Math.floor(Math.random() * messages.length)];
